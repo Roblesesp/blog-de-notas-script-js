@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/styl.css">
+</head>
+<body>
+    <h1>Blog de Notas</h1>
+<section>
+    <div class="caja">
+      <div class="butons">
+        <button id="btnSeccion1" onclick="mostrarSeccion(1)">Crear</button>
+        <button id="btnSeccion2" onclick="mostrarSeccion(2)">Notas</button>
+      </div>
+      <div id="seccion1" class="section" style="display: block;">
+    
+
+
+
+  </div>
+
+  <div id="seccion2" class="section" style="display:none;">
+    
+
+
+
+  </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="caja">
+      <div id="seccion3" class="section" style="display: block;">
+    <form id="note-form">
+        <label for="title">Título:</label>
+        <input type="text" id="title" required>
+
+        <label for="content">Contenido:</label>
+        <textarea id="content" required></textarea>
+
+        <button type="submit">Guardar Nota</button>
+    </form>
+
+
+  </div>
+
+  <div id="seccion4" class="section" style="display:none; text-align: center;">
+    
+<h2>Notas Guardadas</h2>
+    <ul id="note-list"></ul>
+
+  </div>
+    </div>
+
+  </section>
+ 
+
+    
+
+    
+
+    <script type="text/javascript" src="js/jsblog.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

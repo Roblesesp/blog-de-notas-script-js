@@ -1,0 +1,149 @@
+ *{
+            box-sizing: border-box;
+            font-variant: normal;
+            font-style: normal;
+            text-transform: none;
+        }
+        html{
+            height: 100%;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #303F9F;
+}
+
+h1 {
+    color: #bdbdbd;
+    text-align: center;
+}
+section{
+    width: 1000px;
+    margin: 20px auto;
+}
+@media only screen and (max-width:780px){
+    section{
+        width: 98%;
+    }
+}
+section .caja{
+          width: 100%;
+          background-color: rgb(255, 255, 255, .2);
+          padding: 5px;
+          border-radius: 15px;
+        }
+        section .caja .butons{
+          width: 100%;
+          display: inline-block;
+          overflow: hidden;
+          padding: 5px;
+        }
+        .butons button{
+          width: 47%;
+          outline: none;
+          cursor: pointer;
+          border: none;
+          padding: 5px;
+          border-radius: 8px;
+          font-size: 0.9em;
+          font-weight: 700;
+          background-color: transparent;
+          color: rgb(255, 255, 255, 0.7);
+        }
+
+        .butons button.active {
+      background-color: transparent;
+      -webkit-box-shadow: 0px 0px 5px 3px rgb(255, 255, 255, 0.4); 
+            box-shadow: 0px 0px 5px 3px  rgb(255, 255, 255, 0.4);
+      color: rgb(255, 255, 255, 0.7);
+      }
+      .caja .section{
+        width: 100%;
+        padding: 10px;
+      }
+      .caja .section h2{
+        color: rgb(255, 255, 255, 0.7);
+        font-size: 1.4em;
+      }
+      .caja .section p{
+        color: rgb(255, 255, 255, 0.8);
+        font-size: 1em;
+      }
+      .caja .section span{
+        font-size: 0.7em;
+      }
+
+
+
+
+
+
+
+
+
+
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255, .2);
+    outline: none;
+    -webkit-box-shadow: 0px 0px 5px 3px rgb(255, 255, 255, 0.4); 
+            box-shadow: 0px 0px 5px 3px  rgb(255, 255, 255, 0.4);
+}
+
+button {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 5px;
+    background-color:transparent ;
+    
+    color: rgb(255, 255, 255, 0.8);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.note-timestamp {
+    font-size: 12px;
+    color: #777;
+}
+
+.note-actions {
+    margin-top: 10px;
+}
+
+.note-actions button {
+    margin-right: 5px;
+}
+
+
+
+
+
